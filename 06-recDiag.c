@@ -5,18 +5,35 @@
 int main(int argc, char *argv[]) {
 
 	//Definimos
-        int largo = 0;
-        int ancho = 0;
-        int tercerLad = 0;
+        int base = 2;
+        int altura = 3;
+        int tercerLad = 1;
 
-        int hip;
-        int super;
-        int per; //check
+        int diagonal;
+        int super;//check
+        int per;
+
+//superficie
+        super = base * altura;
+
+        printf("El superficie es de : %d \n",super);
+
+        printf("-------------------****----------------- \n");
 
 
-        per = largo * ancho;
+// Perimetro
 
-        printf("El perimetro es de : %d \n",per);
+        per = sqrt(pow(base,2) + pow(altura,2));
+
+        printf("El Perimetro es de : %d \n",super);
+
+        printf("-------------------****----------------- \n");
+
+//diagonal
+
+        diagonal = sqrt(pow(base,2) + pow(altura,2)) / 2;
+
+        printf("El diagonal es de : %d \n",diagonal);
 
         printf("-------------------****----------------- \n");
 
